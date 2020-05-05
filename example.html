@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html>
-
-<body>
+  <body>
     <div>EmbedID</div>
     <div id="trulioo-embedid"></div>
-    <script type="text/javascript" src="https://js.trulioo.com/v0.0.1-beta/main.js"></script>
+    <script
+      type="text/javascript"
+      src="https://js.trulioo.com/latest/main.js"
+    ></script>
     <script>
-        function handleResponse(e) {
-            console.log('@handleResponse', e);
-        }
-        const publicKey = 'PUT_YOUR_PUBLIC_KEY_HERE'; // Public Key
-        new TruliooClient({
-            publicKey,
-            handleResponse
-        });
+      function handleResponse(e) {
+        console.log('@handleResponse', e);
+      }
+      const publicKey = 'PUT_YOUR_PUBLIC_KEY_HERE'; // Public Key
+      new TruliooClient({
+        publicKey,
+        handleResponse,
+      });
     </script>
-</body>
-
+  </body>
 </html>

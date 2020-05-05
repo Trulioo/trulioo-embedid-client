@@ -5,7 +5,7 @@
 Can be included as a CDN:
 
 ```
-<script type="text/javascript" src="https://js.trulioo.com/v0.0.1-beta/main.js"></script>
+<script type="text/javascript" src="https://js.trulioo.com/latest/main.js"></script>
 ```
 
 JavaScript library which streamlines integration with Trulioo.
@@ -28,4 +28,5 @@ new TruliooClient({
     handleResponse
 });
 ```
+
 Have a look at the [example.html](./example.html) file.
